@@ -1,0 +1,7 @@
+@article{hu2019targetdbp,
+  title={TargetDBP: Accurate DNA-Binding Protein Prediction via Sequence-based Multi-View Feature Learning},
+  author={Hu, Jun and Zhou, Xiaogen and Zhu, Yi-Heng and Yu, Dong-Jun and Zhang, Guijun},
+  journal={IEEE/ACM transactions on computational biology and bioinformatics},
+  year={2019},
+  publisher={IEEE}
+}

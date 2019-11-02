@@ -1,0 +1,6 @@
+@article{zhu2019boosting,
+  title={Boosting Granular Support Vector Machines for the Accurate Prediction of Protein-Nucleotide Binding Sites.},
+  author={Zhu, YH and Hu, J and Qi, Y and Song, XN and Yu, DJ},
+  journal={Combinatorial chemistry \& high throughput screening},
+  year={2019}
+}

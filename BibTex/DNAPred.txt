@@ -1,0 +1,7 @@
+@article{zhu2019dnapred,
+  title={DNAPred: accurate identification of DNA-binding sites from protein sequence by ensembled hyperplane-distance-based support vector machines},
+  author={Zhu, Yi-Heng and Hu, Jun and Song, Xiao-Ning and Yu, Dong-Jun},
+  journal={Journal of chemical information and modeling},
+  year={2019},
+  publisher={ACS Publications}
+}
