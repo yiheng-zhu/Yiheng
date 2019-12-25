@@ -1,0 +1,8 @@
+@inproceedings{bao2019deeptf,
+  title={DeepTF: Accurate Prediction of Transcription Factor Binding Sites by Combining Multi-scale Convolution and Long Short-Term Memory Neural Network},
+  author={Bao, Xiao-Rong and Zhu, Yi-Heng and Yu, Dong-Jun},
+  booktitle={International Conference on Intelligent Science and Big Data Engineering},
+  pages={126--138},
+  year={2019},
+  organization={Springer}
+}
