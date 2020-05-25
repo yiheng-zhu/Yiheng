@@ -1,0 +1,15 @@
+@article{10.1093/bib/bbaa076,
+    author = {Zhu, Yi-Heng and Hu, Jun and Ge, Fang and Li, Fuyi and Song, Jiangning and Zhang, Yang and Yu, Dong-Jun},
+    title = "{Accurate multistage prediction of protein crystallization propensity using deep-cascade forest with sequence-based features}",
+    journal = {Briefings in Bioinformatics},
+    year = {2020},
+    month = {05},
+    abstract = "{X-ray crystallography is the major approach for determining atomic-level protein structures. Because not all proteins can be easily crystallized, accurate prediction of protein crystallization propensity provides critical help in guiding experimental design and improving the success rate of X-ray crystallography experiments. This study has developed a new machine-learning-based pipeline that uses a newly developed deep-cascade forest (DCF) model with multiple types of sequence-based features to predict protein crystallization propensity. Based on the developed pipeline, two new protein crystallization propensity predictors, denoted as DCFCrystal and MDCFCrystal, have been implemented. DCFCrystal is a multistage predictor that can estimate the success propensities of the three individual steps (production of protein material, purification and production of crystals) in the protein crystallization process. MDCFCrystal is a single-stage predictor that aims to estimate the probability that a protein will pass through the entire crystallization process. Moreover, DCFCrystal is designed for general proteins, whereas MDCFCrystal is specially designed for membrane proteins, which are notoriously difficult to crystalize. DCFCrystal and MDCFCrystal were separately tested on two benchmark datasets consisting of 12 289 and 950 proteins, respectively, with known crystallization results from various experimental records. The experimental results demonstrated that DCFCrystal and MDCFCrystal increased the value of Matthew’s correlation coefficient by 199.7\\% and 77.8\\%, respectively, compared to the best of other state-of-the-art protein crystallization propensity predictors. Detailed analyses show that the major advantages of DCFCrystal and MDCFCrystal lie in the efficiency of the DCF model and the sensitivity of the sequence-based features used, especially the newly designed pseudo-predicted hybrid solvent accessibility (PsePHSA) feature, which improves crystallization recognition by incorporating sequence-order information with solvent accessibility of residues. Meanwhile, the new crystal-dataset constructions help to train the models with more comprehensive crystallization knowledge.}",
+    issn = {1477-4054},
+    doi = {10.1093/bib/bbaa076},
+    url = {https://doi.org/10.1093/bib/bbaa076},
+    note = {bbaa076},
+    eprint = {https://academic.oup.com/bib/advance-article-pdf/doi/10.1093/bib/bbaa076/33240012/bbaa076.pdf},
+}
+
+
