@@ -1,0 +1,10 @@
+@article{zhu2022tripletgo,
+  title={TripletGO: integrating transcript expression profiles with protein homology inferences for gene function prediction},
+  author={Zhu, Yi-Heng and Zhang, Chengxin and Liu, Yan and Omenn, Gilbert S and Freddolino, Peter L and Yu, Dong-Jun and Zhang, Yang},
+  journal={Genomics, Proteomics \& Bioinformatics},
+  volume={20},
+  number={5},
+  pages={1013--1027},
+  year={2022},
+  publisher={Elsevier}
+}
