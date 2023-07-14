@@ -1,0 +1,10 @@
+@article{zhu2022integrating,
+  title={Integrating unsupervised language model with triplet neural networks for protein gene ontology prediction},
+  author={Zhu, Yi-Heng and Zhang, Chengxin and Yu, Dong-Jun and Zhang, Yang},
+  journal={PLOS Computational Biology},
+  volume={18},
+  number={12},
+  pages={e1010793},
+  year={2022},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
