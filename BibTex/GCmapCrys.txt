@@ -1,0 +1,9 @@
+@article{wang2023gcmapcrys,
+  title={GCmapCrys: Integrating graph attention network with predicted contact map for multi-stage protein crystallization propensity prediction},
+  author={Wang, Peng-Hao and Zhu, Yi-Heng and Yang, Xibei and Yu, Dong-Jun},
+  journal={Analytical Biochemistry},
+  volume={663},
+  pages={115020},
+  year={2023},
+  publisher={Elsevier}
+}

@@ -1,0 +1,8 @@
+@article{liu2023integrating,
+  title={Integrating unsupervised language model with multi-view multiple sequence alignments for high-accuracy inter-chain contact prediction},
+  author={Liu, Zi and Zhu, Yi-Heng and Shen, Long-Chen and Xiao, Xuan and Qiu, Wang-Ren and Yu, Dong-Jun},
+  journal={Computers in Biology and Medicine},
+  pages={107529},
+  year={2023},
+  publisher={Elsevier}
+}
