@@ -1,0 +1,21 @@
+%0 Journal Article
+%A Zhu, Yi-Heng
+%A Liu, Zi
+%A Liu, Yan
+%A Ji, Zhiwei
+%A Yu, Dong-Jun
+%T ULDNA: integrating unsupervised multi-source language models with LSTM-attention network for high-accuracy protein–DNA binding site prediction
+%B Briefings in Bioinformatics
+%D 2024
+%R 10.1093/bib/bbae040
+%1 bbae040
+%J Briefings in Bioinformatics
+%V 25
+%N 2
+%@ 1477-4054
+%X Efficient and accurate recognition of protein–DNA interactions is vital for understanding the molecular mechanisms of related biological processes and further guiding drug discovery. Although the current experimental protocols are the most precise way to determine protein–DNA binding sites, they tend to be labor-intensive and time-consuming. There is an immediate need to design efficient computational approaches for predicting DNA-binding sites. Here, we proposed ULDNA, a new deep-learning model, to deduce DNA-binding sites from protein sequences. This model leverages an LSTM-attention architecture, embedded with three unsupervised language models that are pre-trained on large-scale sequences from multiple database sources. To prove its effectiveness, ULDNA was tested on 229 protein chains with experimental annotation of DNA-binding sites. Results from computational experiments revealed that ULDNA significantly improves the accuracy of DNA-binding site prediction in comparison with 17 state-of-the-art methods. In-depth data analyses showed that the major strength of ULDNA stems from employing three transformer language models. Specifically, these language models capture complementary feature embeddings with evolution diversity, in which the complex DNA-binding patterns are buried. Meanwhile, the specially crafted LSTM-attention network effectively decodes evolution diversity-based embeddings as DNA-binding results at the residue level. Our findings demonstrated a new pipeline for predicting DNA-binding sites on a large scale with high accuracy from protein sequence alone.
+%[ 2/13/2024
+%U https://doi.org/10.1093/bib/bbae040
+
+
+
