@@ -89,7 +89,17 @@
         }
         .paper, .project, .course {
             margin-bottom: 20px;
+            padding-left: 20px;
+            position: relative;
         }
+         .course::before {
+            content: "•";
+            color: var(--accent);
+            font-weight: bold;
+            position: absolute;
+            left: 5px;
+        }
+
         .paper-title {
             font-weight: bold;
         }
@@ -282,10 +292,10 @@
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#research">Research</a></li>
-            <li><a href="#publications">Publications</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#appointments">Committees</a></li>
+            <li><a href="#publications">Publications</a></li>
             <li><a href="#services">Services</a></li>
+            <li><a href="#appointments">Committees</a></li>
             <li><a href="#teaching">Teaching</a></li>
         </ul>
     </nav>
@@ -568,19 +578,6 @@
     </section>
 
 
-
-    <section id="appointments">
-        <h2>Academic Committees</h2>
-        <div class="appointment-item">
-            <span class="appointment-role">Member</span>,
-            China Computer Federation, Jiangsu Society of Bioinformatics.
-        </div>
-       <div class="appointment-item">
-            <span class="appointment-role">Journal Reviewer</span>,
-            Briefings in Bioinformatics, IEEE-ACM Transactions on Computational Biology and Bioinformatics, Journal of Cheminformatics, BMC Bioinformatics, Science Reports, Computational and Structural Biotechnology Journal.
-        </div>
-    </section>
-
     <section id="services">
     <h2>Online Web Services/Tools</h2>
     <div class="tools-container">
@@ -761,6 +758,17 @@
 </section>
 
 
+     <section id="appointments">
+        <h2>Academic Committees</h2>
+        <div class="appointment-item">
+            <span class="appointment-role">Member</span>:
+            China Computer Federation, Jiangsu Society of Bioinformatics.
+        </div>
+       <div class="appointment-item">
+            <span class="appointment-role">Journal Reviewer</span>:
+            Briefings in Bioinformatics, IEEE-ACM Transactions on Computational Biology and Bioinformatics, Journal of Cheminformatics, BMC Bioinformatics, Science Reports, Computational and Structural Biotechnology Journal.
+        </div>
+    </section>
 
     <section id="teaching">
         <h2>Teaching</h2>
