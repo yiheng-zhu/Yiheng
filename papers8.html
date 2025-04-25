@@ -1,0 +1,732 @@
+<style>
+<!--
+ li.MsoNormal
+	{mso-style-parent:"";
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Times New Roman";
+	margin-left:0cm; margin-right:0cm; margin-top:0cm}
+-->
+</style>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+
+<div>
+	<table border="0" id="table1" bgcolor="#FFFFFF">
+<tr>
+	<td valign="baseline" colspan="3" bgcolor="#ADD8E6">
+		<p><b>
+			<font face="Times" size="3">
+				<a name="2023">Enzyme Function Prediction</a>
+			</font>
+		</b></p>
+	</td>
+</tr>
+
+		<tr>
+
+		<td valign="baseline" colspan="3">
+			<br>
+			<font color="blue">Overview</font>
+<ol>
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			Enzyme functional classification using artificial intelligence.
+			<b> Trends in Biotechnology</b>, 2025.
+			[<a href="./papers/8/Review_2025_1.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			Comparative Assessment of Protein Large Language Models for Enzyme Commission Number Prediction.
+			<b> BMC Bioinformatics</b>, 2025.
+			[<a href="./papers/8/Review_2025_2.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+</ol>
+
+			<font color="blue">Large Language Model-Based Methods</font>
+<ol>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			Interpretable Kolmogorov-Arnold Networks for Enzyme Commission Number Prediction.
+			<b> bioRxiv</b>, 2025.
+			<b> Model: ESM-1b + KAN</b>,
+			[<a href="./papers/8/Dumontet_method.pdf">PDF</a>],
+			[<a href="https://github.com/datax-lab/kan_ecnumber" target=_blank>Code</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			ProtDETR: Interpretable Enzyme Function Prediction via Residue-Level Detection.
+			<b> bioRxiv</b>, 2025.
+			<b> Model: ESM-1b + Self-Attention + CNN</b>,
+			[<a href="./papers/8/ProtDETR.pdf">PDF</a>],
+			[<a href="https://github.com/yangzhao1230/ProtDETR" target=_blank>Code</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			ProteinF3S: Boosting enzyme function prediction by fusing protein sequence, structure, and surface.
+			<b> Briefings in Bioinformatics</b>, 2025.
+			<b> Model: ESM2 + CNN + transformer</b>,
+			[<a href="./papers/8/ProteinF3S.pdf">PDF</a>],
+			[<a href="https://github.com/phdymz/ProteinF3S" target=_blank>Code</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			PhiGnet: Accurate prediction of protein function using statistics-informed graph networks.
+			<b> Nature Communications</b>, 2024.
+			<b> Model: ESM-1b + GCN.</b>
+			[<a href="./papers/8/PhiGnet.pdf">PDF</a>]
+			[<a href="https://zenodo.org/records/12496869" target=_blank>Code</a>]
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			GraphEC: Accurately predicting enzyme functions through geometric graph learning on ESMFold-predicted structures.
+			<b> Nature Communications</b>, 2024.
+			<b> Model: ProtTrans + GNN + Attention</b>,
+			[<a href="./papers/8/GraphEC.pdf">PDF</a>],
+			[<a href="https://github.com/biomed-AI/GraphEC" target=_blank>Code1</a>],
+			[<a href="https://zenodo.org/records/13375275" target=_blank>Code2</a>]. 
+		</font>
+	</p>
+</li>
+
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			CPEC: Leveraging conformal prediction to annotate enzyme function space with limited false positives.
+			<b> PLoS Computational Biology</b>, 2024.
+			<b> Model: ESM + GNN + Triplet Loss</b>,
+			[<a href="./papers/8/CPEC.pdf">PDF</a>],
+			[<a href="https://github.com/luo-group/CPEC" target=_blank>Code</a>].
+		</font>
+	</p>
+</li>
+
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			CLEAN-Contact: Improved enzyme functional annotation prediction using contrastive learning with structural inference.
+			<b> Communications Biology</b>, 2024.
+			<b> Model: ESM2 + ResNet50 + Contact Map + Triplet Loss</b>,
+			[<a href="./papers/8/CLEAN-Contact.pdf">PDF</a>],
+			[<a href="https://github.com/pnnl-predictive-phenomics/clean-contact" target=_blank>Code</a>],
+			[<a href="https://ersa.guans.cs.kent.edu" target=_blank>Web Server</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			GloEC: A hierarchical-aware global model for predicting enzyme function.
+			<b> Briefings in Bioinformatics</b>, 2024.
+			<b> Model: ESM-1b + Self Attention + GCN</b>,
+			[<a href="./papers/8/GloEC.pdf">PDF</a>],
+			[<a href="https://github.com/hyr0771/GloEC" target=_blank>Code</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			ifDEEPre: Large protein language-based deep learning enables interpretable and fast predictions of enzyme commission numbers
+			<b> Briefings in Bioinformatics</b>, 2024.
+			<b> Model: ESM-1b + Self Attention + CNN</b>,
+			[<a href="./papers/8/ifDEEPre.pdf">PDF</a>],
+			[<a href="https://github.com/ml4bio/ifDEEPre/" target=_blank>Code</a>],
+			[<a href="https://proj.cse.cuhk.edu.hk/aihlab/ifdeepre/" target=_blank>Web Server</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			FEDKEA: Enzyme function prediction with a large pretrained protein language model and distance-weighted k-nearest neighbor.
+			<b> bioRxiv</b>, 2024.
+			<b> Model: ESM2 + MLP + KNN</b>,
+			[<a href="./papers/8/FEDKEA.pdf">PDF</a>],
+			[<a href="https://github.com/Stevenleizheng/FEDKEA" target=_blank>Code</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			MAPred: Autoregressive Enzyme Function Prediction with Multi-scale Multi-modality Fusion.
+			<b> bioRxiv</b>, 2024.
+			<b> Model: ESM2 + ProtTrans + CNN + Attention</b>,
+			[<a href="./papers/8/MAPred.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			CLEAN: Enzyme function prediction using contrastive learning.
+			<b> Science</b>, 2023.
+			<b> Model: ESM-1b + Triplet Loss</b>,
+			[<a href="./papers/8/CLEAN.pdf">PDF</a>],
+			[<a href="https://github.com/tttianhao/CLEAN" target=_blank>Code</a>],
+			[<a href="https://clean.platform.moleculemaker.org/configuration" target=_blank>Web Server</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			DeepECtransformer: Functional annotation of enzyme-encoding genes using deep learning with transformer layers.
+			<b> Nature Communications</b>, 2023.
+			<b> Model: ProtTrans + Self Attention + CNN</b>,
+			[<a href="./papers/8/DeepECtransformer.pdf">PDF</a>],
+			[<a href="https://github.com/kaistsystemsbiology/DeepProZyme" target=_blank>Code</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			HiFi-NN annotates the microbial dark matter with Enzyme Commission numbers
+			<b> NeurIPS</b>, 2023.
+			<b> Model: ESM + MLP + Triplet Loss</b>,
+			[<a href="./papers/8/HiFi-NN.pdf">PDF</a>].
+
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			ECRECer: Enzyme Commission Number Prediction and Benchmarking with Hierarchical Dual-core Multitask Learning Framework.
+			<b> Research</b>, 2023.
+			<b> Model: UniRep + ESM-1b + BiGRU + Attention</b>,
+			[<a href="./papers/8/ECRECer.pdf">PDF</a>],
+			[<a href="https://github.com/kingstdio/ECRECer" target=_blank>Code1</a>],
+			[<a href="https://github.com/tibbdc/ECRECer" target=_blank>Code2</a>],
+			[<a href="https://ecrecer.biodesign.ac.cn" target=_blank>Web Server</a>].
+		</font>
+	</p>
+</li>
+
+
+</ol>
+
+			<font color="blue">Deep Learning-Based Methods</font>
+<ol>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			HIT-EC: Trust worthy prediction of enzyme commission numbers using a hierarchical interpretable transformer.
+			<b> bioRxiv</b>, 2025.
+			<b> Model: Self Attention + Transformer</b>,
+			[<a href="./papers/8/HIT-EC.pdf">PDF</a>],
+			[<a href="https://github.com/datax-lab/HIT-EC" target=_blank>Code</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			TopEC: Prediction of Enzyme Commission classes by 3D graph neural networks and localized 3D protein descriptor.
+			<b> Nature Communications</b>, 2025.
+			<b> Model: Structure descriptor + GNN</b>,
+			[<a href="./papers/8/TopEC.pdf">PDF</a>],
+			[<a href="https://github.com/IBG4-CBCLab/TopEC" target=_blank>Code</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			ECPICK: Evidential deep learning for trustworthy prediction of enzyme commission number.
+			<b> Briefings in Bioinformatics</b>, 2024.
+			<b> Model: Sequence encoding + CNN</b>,
+			[<a href="./papers/8/ECPICK.pdf">PDF</a>],
+			[<a href="https://github.com/datax-lab/ECPICK" target=_blank>Code</a>],
+			[<a href="https://ecpick.dataxlab.org" target=_blank>Web Server</a>].
+		</font>
+	</p>
+</li>
+
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			ProteInfer: Deep neural networks for protein functional inference.
+			<b> eLife</b>, 2023.
+			<b> Model: Sequence encoding + CNN</b>,
+			[<a href="./papers/8/ProteInfer.pdf">PDF</a>],
+			[<a href="https://google-research.github.io/proteinfer/" target=_blank>Code</a>].
+		</font>
+	</p>
+</li>
+
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			EnzBert: Predicting enzymatic function of protein sequences with attention.
+			<b> Bioinformatics</b>, 2023.
+			<b> Model: Sequence encoding + Transformer</b>,
+			[<a href="./papers/8/EnzBert.pdf">PDF</a>],
+			[<a href="https://gitlab.inria.fr/nbuton/tfpc" target=_blank>Code1</a>],
+			[<a href="https://zenodo.org/records/7253910" target=_blank>Code2</a>].
+
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			deepNEC: A novel alignment-free tool for the identification and classification of nitrogen biochemical network-related enzymes using deep learning.
+			<b> Briefings in Bioinformatics</b>, 2022.
+			<b> Model: Sequence encoding + CNN</b>,
+			[<a href="./papers/8/deepNEC.pdf">PDF</a>],
+			[<a href="https://bitbucket.org/navduhan/deepnec.git" target=_blank>Code</a>],
+			[<a href="https://bioinfo.usu.edu/deepNEC/" target=_blank>Web Server</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			DAttProt: An Interpretable Double-Scale Attention Model for Enzyme Protein Class Prediction Based on Transformer Encoders and Multi-Scale Convolutions.
+			<b> Frontiers in Genetics</b>, 2022.
+			<b> Model: Sequence encoding + Transformer + CNN</b>,
+			[<a href="./papers/8/DAttProt.pdf">PDF</a>],
+			[<a href="https://github.com/zhanglabNKU/DAttProt" target=_blank>Code</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			DeepFRI: Structure-based protein function prediction using graph convolutional networks.
+			<b> Nature Communications</b>, 2021.
+			<b> Model: LSTM + GCN + Contact Map</b>,
+			[<a href="./papers/8/DeepFRI.pdf">PDF</a>]
+			[<a href="https://beta.deepfri.flatironinstitute.org/" target=_blank>Web Server</a>]
+			[<a href="https://github.com/flatironinstitute/DeepFRI/" target=_blank>Code</a>].
+		</font>
+	</p>
+</li>
+
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			HECNet: A hierarchical approach to enzyme function classification using a Siamese Triplet Network.
+			<b> Bioinformatics</b>, 2020.
+			<b> Model: Sequence encoding + LSTM + CNN</b>,
+			[<a href="./papers/8/HECNet.pdf">PDF</a>]
+			[<a href="http://hecnet.cbrlab.org" target=_blank>Web Server</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			UDSMProt: Universal deep sequence models for protein classification.
+			<b> Bioinformatics</b>, 2020.
+			<b> Model: Sequence encoding + LSTM </b>,
+			[<a href="./papers/8/UDSMProt.pdf">PDF</a>]
+			[<a href="https://github.com/nstrodt/UDSMProt" target=_blank>Code</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			DeepEC: Deep learning enables high-quality and highthroughput prediction of enzyme commission numbers.
+			<b> PNAS</b>, 2019.
+			<b> Model: Sequence encoding + CNN</b>,
+			[<a href="./papers/8/DeepEC.pdf">PDF</a>],
+			[<a href="https://bitbucket.org/kaistsystemsbiology/deepec" target=_blank>Code</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			mlDEEPre: Multi-Functional Enzyme Function Prediction With Hierarchical Multi-Label Deep Learning.
+			<b> Frontiers in Genetics</b>, 2019.
+			<b> Model: Sequence encoding + CNN</b>,
+			[<a href="./papers/8/mlDEEPre.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			Prediction of Enzyme Function Based on Three Parallel Deep CNN and Amino Acid Mutation.
+			<b> International Journal of Molecular Sciences</b>, 2019.
+			<b> Model: Sequence encoding + CNN</b>,
+			[<a href="./papers/8/Gao_method.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			DEEPre: Sequence-based enzyme EC number prediction by deep learning.
+			<b> Bioinformatics</b>, 2018.
+			<b> Model: Sequence encoding + CNN</b>,
+			[<a href="./papers/8/DEEPre.pdf">PDF</a>],
+			[<a href="http://www.cbrc.kaust.edu.sa/DEEPre/" target=_blank>Web Server</a>].
+		</font>
+	</p>
+</li>
+
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			EnzyNet: Enzyme classification using 3D convolutional neural networks on spatial representation.
+			<b> PeerJ</b>, 2018.
+			<b> Model: Structure descriptor + CNN</b>,
+			[<a href="./papers/8/EnzyNet.pdf">PDF</a>],
+			[<a href="https://github.com/shervinea/enzynet" target=_blank>Web Server</a>].
+		</font>
+	</p>
+</li>
+
+</ol>
+
+			<font color="blue">Machine Learning-Based Methods</font>
+<ol>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			PredictEFC: A fast and efficient multi‑label classifier for predicting enzyme family classes.
+			<b> BMC Bioinformatics</b>, 2024.
+			<b> Model: SVM + RF</b>,
+			[<a href="./papers/8/PredictEFC.pdf">PDF</a>],
+			[<a href="http://124.221.158.221" target=_blank>Web Server</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			The Classification of Enzymes by Deep Learning.
+			<b> IEEE Access</b>, 2020.
+			<b> Model: SVM + KNN + LDA + MLP</b>,
+			[<a href="./papers/8/PredictEFC.pdf">PDF</a>],
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			Alignment-Free Method to Predict Enzyme Classes and Subclasses.
+			<b> International Journal of Molecular Sciences</b>, 2019.
+			<b> Model: LDA + MLP</b>,
+			[<a href="./papers/8/Concu_method.pdf">PDF</a>],
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			ECPred: A tool for the prediction of the enzymatic functions of protein sequences based on the EC nomenclature.
+			<b> BMC Bioinformatics</b>, 2018.
+			<b> Model: SVM + KNN</b>,
+			[<a href="./papers/8/ECPred.pdf">PDF</a>],
+			[<a href="https://github.com/cansyl/ECPred" target=_blank>Code</a>],
+			[<a href="https://ecpred.kansil.org" target=_blank>Web Server</a>].
+		</font>
+	</p>
+</li>
+
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			Automatic single- and multi-label enzymatic function prediction by machine learning.
+			<b> PeerJ</b>, 2018.
+			<b> Model: SVM + MLP</b>,
+			[<a href="./papers/8/Amidi_method.pdf">PDF</a>],
+			[<a href="https://figshare.com/s/a63e0bafa9b71fc7cbd7" target=_blank>Code</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			ML-KNN: Classifying Multifunctional Enzymes by Incorporating Three Different Models into Chou’s General Pseudo Amino Acid Composition.
+			<b> Journal of Membrane Biology</b>, 2016.
+			<b> Model: KNN</b>,
+			[<a href="./papers/8/ML-KNN.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			EFPrf: Prediction of Detailed Enzyme Functions and Identification of Specificity Determining Residues by Random Forests.
+			<b> PLoS One</b>, 2013.
+			<b> Model: RF</b>,
+			[<a href="./papers/8/EFPrf.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			ECOH: An Enzyme Commission number predictor using mutual information and a support vector machine.
+			<b> Bioinformatics</b>, 2013.
+			<b> Model: SVM</b>,
+			[<a href="./papers/8/ECOH.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			Accurate prediction of protein enzymatic class by N-to-1 Neural Networks.
+			<b> BMC Bioinformatics</b>, 2013.
+			<b> Model: N-to-1 Neural Network</b>,
+			[<a href="./papers/8/Volpato_methd.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			EFICAz 2.5: Application of a high-precision enzyme function predictor to 396 proteomes.
+			<b> Bioinformatics</b>, 2012.
+			<b> Model: SVM </b>,
+			[<a href="./papers/8/EFICAz2.5.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			Prediction of Enzyme Subfamily Class via Pseudo Amino Acid Composition by Incorporating the Conjoint Triad Feature.
+			<b> Protein & Peptide Letters</b>, 2010.
+			<b> Model: SVM</b>,
+			[<a href="./papers/8/Wang_method.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			EFICAz 2: Enzyme function inference by a combined approach enhanced by machine learning.
+			<b> BMC Bioinformatics</b>, 2009.
+			<b> Model: SVM</b>,
+			[<a href="./papers/8/EFICAz2.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			EzyPred: A top–down approach for predicting enzyme functional classes and subclasses.
+			<b> Biochemical and Biophysical Research Communications </b>, 2007.
+			<b> Model: KNN</b>,
+			[<a href="./papers/8/EzyPred.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+</ol>
+
+
+			<font color="blue">Template Detection-Based Methods</font>
+<ol>
+
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			BENZ WS: The Bologna ENZyme Web Server for four-level EC number annotation.
+			<b> Nucleic Acids Research</b>, 2021.
+			<b> Template: Sequence Similarity</b>,
+			[<a href="./papers/8/BENZ WS.pdf">PDF</a>],
+			[<a href="https://benzdb.biocomp.unibo.it" target=_blank>Code</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			GrAPFI: Predicting enzymatic function of proteins from domain similarity graphs.
+			<b> BMC Bioinformatics</b>, 2020.
+			<b> Template: Domain Similarity</b>,
+			[<a href="./papers/8/GrAPFI.pdf">PDF</a>],
+			[<a href="https://gitlab.inria.fr/bsarker/bmc_grapfi" target=_blank>Code</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			COFACTOR 2.0: Improved protein function prediction by combining structure, sequence and protein–protein interaction information.
+			<b> Nucleic Acids Research</b>, 2017.
+			<b> Template: Structure Alignment, Sequence Alignment, PPI</b>,
+			[<a href="./papers/8/COFACTOR2.pdf">PDF</a>],
+			[<a href="https://zhanggroup.org/COFACTOR/" target=_blank>Web Server</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			COFACTOR 1.0: An accurate comparative algorithm for structure-based protein function annotation.
+			<b> Nucleic Acids Research</b>, 2012.
+			<b> Template: Structure Alignment</b>,
+			[<a href="./papers/8/COFACTOR1.pdf">PDF</a>],
+			[<a href="https://zhanggroup.org/COFACTOR/" target=_blank>Web Server</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			EnzML: Multi-label prediction of enzyme classes using InterPro signatures.
+			<b> BMC Bioinformatics</b>, 2012.
+			<b> Template: Sequence Alignment</b>,
+			[<a href="./papers/8/EnzML.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			ModEnzA: Accurate Identification ofMetabolic Enzymes Using Function Specific Profile HMMs with Optimised Discrimination Threshold andModified Emission Probabilities.
+			<b> Advances in Bioinformatics</b>, 2011.
+			<b> Template: Sequence Similarity</b>,
+			[<a href="./papers/8/ModEnzA.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			EAT Server: Evolutionary Trace Annotation Server: automated enzyme function prediction in protein structures using 3D templates.
+			<b> Bioinformatics</b>, 2009.
+			<b> Template: Structure Alignment</b>,
+			[<a href="./papers/8/ETA_Server.pdf">PDF</a>],
+			[<a href="http://mammoth.bcm.tmc.edu/eta/" target=_blank>Web Server</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			EAT: Prediction of enzyme function based on 3D templates of evolutionarily important amino acids.
+			<b> BMC Bioinformatics</b>, 2009.
+			<b> Template: Structure Alignment</b>,
+			[<a href="./papers/8/ETA.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			3D-Fun: Predicting enzyme function from structure
+			<b> Nucleic Acids Research</b>, 2008.
+			<b> Template: Structure Alignment</b>,
+			[<a href="./papers/8/3D-Fun.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			EFICAz: A comprehensive approach for accurate genome-scale enzyme function inference.
+			<b> Nucleic Acids Research</b>, 2004.
+			<b> Template: Sequence Similarity</b>,
+			[<a href="./papers/8/EFICAz.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+<li>
+	<p style="line-height: 20px; margin-top: 10px" align="justify">
+		<font face="Times" size="3">
+			PRIAM: Enzyme‐specific profiles for genome annotation.
+			<b> Nucleic Acids Research</b>, 2003.
+			<b> Template: Sequence Similarity</b>,
+			[<a href="./papers/8/PRIAM.pdf">PDF</a>].
+		</font>
+	</p>
+</li>
+
+</ol>
+
+		</td>
+		</tr>
+	</table>
+</div>
